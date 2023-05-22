@@ -8,11 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		FE07A74D2A1BC74F007924F3 /* YTimeTeller.h in Headers */ = {isa = PBXBuildFile; fileRef = FE07A74C2A1BC74F007924F3 /* YTimeTeller.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE07A7542A1BC790007924F3 /* TimeTellerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE07A7532A1BC790007924F3 /* TimeTellerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FE07A7492A1BC74F007924F3 /* YTimeTeller.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YTimeTeller.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE07A74C2A1BC74F007924F3 /* YTimeTeller.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YTimeTeller.h; sourceTree = "<group>"; };
+		FE07A7532A1BC790007924F3 /* TimeTellerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeTellerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +47,7 @@
 		FE07A74B2A1BC74F007924F3 /* YTimeTeller */ = {
 			isa = PBXGroup;
 			children = (
+				FE07A7532A1BC790007924F3 /* TimeTellerViewController.swift */,
 				FE07A74C2A1BC74F007924F3 /* YTimeTeller.h */,
 			);
 			path = YTimeTeller;
@@ -93,6 +96,7 @@
 				TargetAttributes = {
 					FE07A7482A1BC74F007924F3 = {
 						CreatedOnToolsVersion = 14.3;
+						LastSwiftMigration = 1430;
 					};
 				};
 			};
@@ -129,6 +133,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE07A7542A1BC790007924F3 /* TimeTellerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +263,8 @@
 		FE07A7512A1BC74F007924F3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -280,6 +287,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -288,6 +296,8 @@
 		FE07A7522A1BC74F007924F3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;

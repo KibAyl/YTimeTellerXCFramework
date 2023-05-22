@@ -1,0 +1,11 @@
+framework module YTimeTeller {
+  umbrella header "YTimeTeller.h"
+
+  export *
+  module * { export * }
+}
+
+module YTimeTeller.Swift {
+  header "YTimeTeller-Swift.h"
+  requires objc
+}

@@ -1,0 +1,330 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "YTimeTeller",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TimeTellerViewController",
+        "printedName": "TimeTellerViewController",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "viewDidLoad",
+            "printedName": "viewDidLoad()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@YTimeTeller@objc(cs)TimeTellerViewController(im)viewDidLoad",
+            "mangledName": "$s11YTimeTeller04TimeB14ViewControllerC11viewDidLoadyyF",
+            "moduleName": "YTimeTeller",
+            "overriding": true,
+            "objc_name": "viewDidLoad",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl",
+              "Override"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(nibName:bundle:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TimeTellerViewController",
+                "printedName": "YTimeTeller.TimeTellerViewController",
+                "usr": "c:@M@YTimeTeller@objc(cs)TimeTellerViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Bundle?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bundle",
+                    "printedName": "Foundation.Bundle",
+                    "usr": "c:objc(cs)NSBundle"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@YTimeTeller@objc(cs)TimeTellerViewController(im)initWithNibName:bundle:",
+            "mangledName": "$s11YTimeTeller04TimeB14ViewControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfc",
+            "moduleName": "YTimeTeller",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithNibName:bundle:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "YTimeTeller.TimeTellerViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TimeTellerViewController",
+                    "printedName": "YTimeTeller.TimeTellerViewController",
+                    "usr": "c:@M@YTimeTeller@objc(cs)TimeTellerViewController"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@YTimeTeller@objc(cs)TimeTellerViewController(im)initWithCoder:",
+            "mangledName": "$s11YTimeTeller04TimeB14ViewControllerC5coderACSgSo7NSCoderC_tcfc",
+            "moduleName": "YTimeTeller",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@YTimeTeller@objc(cs)TimeTellerViewController",
+        "mangledName": "$s11YTimeTeller04TimeB14ViewControllerC",
+        "moduleName": "YTimeTeller",
+        "declAttributes": [
+          "Custom",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIViewController",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIViewController",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/yohannespersonal\/Desktop\/YTimeTeller\/YTimeTeller\/TimeTellerViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 269,
+      "length": 2,
+      "value": "27"
+    },
+    {
+      "filePath": "\/Users\/yohannespersonal\/Desktop\/YTimeTeller\/YTimeTeller\/TimeTellerViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 380,
+      "length": 13,
+      "value": "\"HI 👋🏾\""
+    },
+    {
+      "filePath": "\/Users\/yohannespersonal\/Desktop\/YTimeTeller\/YTimeTeller\/TimeTellerViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 524,
+      "length": 22,
+      "value": "\"WHAT TIME IS IT NOW?\""
+    },
+    {
+      "filePath": "\/Users\/yohannespersonal\/Desktop\/YTimeTeller\/YTimeTeller\/TimeTellerViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1153,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/yohannespersonal\/Desktop\/YTimeTeller\/YTimeTeller\/TimeTellerViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1221,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/yohannespersonal\/Desktop\/YTimeTeller\/YTimeTeller\/TimeTellerViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1366,
+      "length": 3,
+      "value": "100"
+    },
+    {
+      "filePath": "\/Users\/yohannespersonal\/Desktop\/YTimeTeller\/YTimeTeller\/TimeTellerViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1478,
+      "length": 2,
+      "value": "40"
+    },
+    {
+      "filePath": "\/Users\/yohannespersonal\/Desktop\/YTimeTeller\/YTimeTeller\/TimeTellerViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1591,
+      "length": 3,
+      "value": "-40"
+    },
+    {
+      "filePath": "\/Users\/yohannespersonal\/Desktop\/YTimeTeller\/YTimeTeller\/TimeTellerViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1660,
+      "length": 3,
+      "value": "120"
+    },
+    {
+      "filePath": "\/Users\/yohannespersonal\/Desktop\/YTimeTeller\/YTimeTeller\/TimeTellerViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1804,
+      "length": 2,
+      "value": "80"
+    },
+    {
+      "filePath": "\/Users\/yohannespersonal\/Desktop\/YTimeTeller\/YTimeTeller\/TimeTellerViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1915,
+      "length": 2,
+      "value": "40"
+    },
+    {
+      "filePath": "\/Users\/yohannespersonal\/Desktop\/YTimeTeller\/YTimeTeller\/TimeTellerViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2028,
+      "length": 3,
+      "value": "-40"
+    },
+    {
+      "filePath": "\/Users\/yohannespersonal\/Desktop\/YTimeTeller\/YTimeTeller\/TimeTellerViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2097,
+      "length": 2,
+      "value": "40"
+    },
+    {
+      "filePath": "\/Users\/yohannespersonal\/Desktop\/YTimeTeller\/YTimeTeller\/TimeTellerViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2543,
+      "length": 20,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/yohannespersonal\/Desktop\/YTimeTeller\/YTimeTeller\/TimeTellerViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2551,
+      "length": 1,
+      "value": "\":\""
+    },
+    {
+      "filePath": "\/Users\/yohannespersonal\/Desktop\/YTimeTeller\/YTimeTeller\/TimeTellerViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2562,
+      "length": 1,
+      "value": "\"\""
+    }
+  ]
+}
